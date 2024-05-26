@@ -11,5 +11,16 @@ public class App {
 
         System.out.println("\nInformacion del Camion: ");
         Camion.mostrarInfo();
+
+        System.out.println("\nInformacion del Camion: ");
+        Camion.mostrarInfo();
+        Camion.RealizarMantenimiento();
+        auto.RealizarMantenimiento();
+
+        System.out.println("El costo total del mantenimiento: ");
+        auto.CostoMantenimiento(10, 12);
     }
+
+
+    
 }
